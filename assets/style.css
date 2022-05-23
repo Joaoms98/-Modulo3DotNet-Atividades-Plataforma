@@ -12,41 +12,46 @@ a:hover{
     align-items: center;
     flex-wrap: wrap;
 }
+img{
+    border-radius: 30%;
+}
 .selva .animal{
     max-width: 300px;
-    height: 220px;
+    height: 250px;
     position: relative;
-    margin: 30px 10px;
-    padding: 20px 15px;
-    background: gray;
-    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 30px 20px;
+    background: rgb(77, 75, 75);
+    border-radius: 30px;
     flex-direction: column;
     transition: 0.5s ease-in-out;
 }
-.selva.animal:hover{
-    height: 500px;
+.selva .animal:hover{
+    height: 300px;
 }
-.selva.animal.image{
+.selva .animal .image{
     position: relative;
-    width: 270px;
-    height: 270px;
-    top: -60px;
-    left: 20px;
+    width: 300px;
+    height: 300px;
+    top: -10px;
+    left: 0px;
+    border-radius: 30%;
     z-index: 1; 
 }
-.selva.animal.selva.animal.image img{
+.selva .animal .selva .animal .image img{
     max-width: 100%;
 }
-.selva.animal.textimage{
-    position: relative;
+.selva .animal .textimage{
+    font-family:'Lucida Grande';
+    font-size: medium;
     margin-top:-140px;
     text-align: center;
-    padding: 10px;
-    color: green;
+    padding: 20px;
+    color: white;
     visibility: hidden;
     transition: 0.3s ease-in-out;
 }
-.selva.animal:hover .textimage{
+.selva .animal:hover .textimage{
     visibility: visible;
     transition-delay: 0.3s;
     cursor:pointer;
@@ -57,13 +62,13 @@ a:hover{
     padding-left: 350px;
 }
 .textmenu{
-    font-family: "Russo One", sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     padding: 10px;
     text-decoration:none;
 }
 .bg{
-    background-color:rgb(223, 217, 217);
+    background-image: url("background.jpg");
 }
 .text-block{
     position: relative;
@@ -76,14 +81,14 @@ a:hover{
     left: 0;
     width: 100%;
     height: 100%;
-    background:#66635e;
+    background:rgb(235, 224, 205);
     transform: translateX(-100%);
     animation: enlargeBlock .5s .6s , revealBlock 0.5s 1.1s both;
 }
 .animationtext{
     color:black;
-    font-family: "Russo One", sans-serif;
-    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
     letter-spacing: 2px;
     text-transform: uppercase;
     position: relative;
