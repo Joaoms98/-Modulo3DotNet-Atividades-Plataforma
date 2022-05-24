@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="bg">
+    <div class="text-block">
+        <p class="animationtext" href="index.html">Nem tudo são flores</p>
+    </div>
+    <div class="menu">
+        <a class="textmenu" href="index.html">Inicio</a>
+        <a class="textmenu" href="contato.html">Faça seu pedido</a>
+        <a class="textmenu" href="https://www.isabelaflores.com/flores-em-vaso.html">Flores em vaso</a>
+        <a class="textmenu" href="https://www.coroas24horas.com.br/cidade/sao-paulo?gclid=CjwKCAjw4ayUBhA4EiwATWyBrrIrHD0h2-SbwMiuP-q0UsiATe6_4WFxXIKQzFEGY1yE3avYftn-aRoC4ucQAvD_BwE">Flores de defunto</a>
+    </div>
+    <h1 class="textimput">Deixe seu contato e informe seu pedido</h1>
+    <div class="imput">
+        <div class="imput">
+            <label for="nome">Nome:</label>
+            <textarea name="nome" id="nome" cols="60" rows="1" onkeyup="validaNome()"></textarea>
+            <div id='txtnome'></div>
+        </div>
+        <div class="imput">
+            <label for="email">E-mail:</label>
+            <textarea name="email" id="email" cols="60" rows="1" onkeyup="validaEmail()"></textarea>
+            <div id='txtemail'></div>
+        </div>
+        <div class="imput">
+            <label for="assunto">Assunto:</label>
+            <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+            <div id='txtassunto'></div>
+            <button>Enviar</button> 
+        </div>
+    </div>
+</body>
+<script src="assets/js/script.js"></script>
+</html>

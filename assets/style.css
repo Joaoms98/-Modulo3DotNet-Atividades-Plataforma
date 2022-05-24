@@ -56,6 +56,25 @@ img{
     transition-delay: 0.3s;
     cursor:pointer;
 }
+.imput{
+    width: 500px;
+    padding: 5px;
+    display:block;
+    margin-left: 175px;
+    margin-top: 30px;
+}
+.textimput{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    margin-left: 290px;
+}
+.label{
+    position: relative;
+    align-items: center;
+    font-family: Arial;
+    
+}
 .menu{
     display:flexbox;
     background-color: black;
@@ -68,7 +87,7 @@ img{
     text-decoration:none;
 }
 .bg{
-    background-image: url("background.jpg");
+    background-image: url("img/background.jpg");
 }
 .text-block{
     position: relative;
