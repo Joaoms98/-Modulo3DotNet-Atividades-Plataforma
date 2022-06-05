@@ -77,8 +77,8 @@ export default function MenuAppBar() {
                 open={open}
                 onClose={handleClose}
               >
+                <MenuItem onClick={handleClose}><Link to='/login' className='text-decorator-nome-menu'>Login</Link></MenuItem>
                 <MenuItem onClick={handleClose}><Link to='/login' className='text-decorator-nome-menu'>Logout</Link></MenuItem>
-                <MenuItem onClick={handleClose}>Minha conta</MenuItem>
               </Menu>
             </div>
           )}

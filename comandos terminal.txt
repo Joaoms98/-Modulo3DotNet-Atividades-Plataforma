@@ -1,0 +1,42 @@
+criar um projeto react de front ao mesmo tempo um back de dotnet
+dotnet new react --framework net5.0
+
+
+baixar o node 
+https://nodejs.org/en/
+deixar no npm pachage manager
+
+
+instalar yarn globalmente para ficar no pc
+npm install -g yarn
+
+
+criar um projeto react com a estrutura montada
+npx create-react-app nomedoprojeto --template typescript
+
+para rodar o projeto
+cd entra dentro da pasta
+yarn start
+
+
+encerrar o projeto
+ctrl c
+
+
+comando para instalar o material ui
+npm uninstall @material-ui/core@4.12.3
+yarn add @material-ui/icons@4.12.3
+yarn add @material-ui/core@4.12.3
+
+
+comando para instalar o route
+yarn add react-router-dom@6
+
+comando para instalar axios
+yarn add axios
+
+comando para instalar 
+yarn add react-use-localstorage
+
+
+
